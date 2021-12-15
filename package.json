@@ -1,0 +1,32 @@
+{
+  "name": "cordova-plugin-mediadrmid",
+  "version": "0.0.1",
+  "description": "An Android Cordova plugin that gets a unique id for the device using MediaDrm.",
+  "cordova": {
+    "id": "cordova-plugin-mediadrmid",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lietsaki/MediaDrmIdCordovaPlugin.git"
+  },
+  "keywords": [
+    "mediadrm",
+    "imei",
+    "uniqueid",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "engines": {
+    "cordova": ">=3.0.0"
+  }
+  ,
+  "author": "Ricardo Sandez <ricardo.sandez@ctwoks.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Lietsaki/MediaDrmIdCordovaPlugin/issues"
+  },
+  "homepage": "https://github.com/Lietsaki/MediaDrmIdCordovaPlugin"
+}

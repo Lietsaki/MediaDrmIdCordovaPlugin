@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        id="cordova-plugin-mediadrmid" version="0.0.1">
+    <name>MediaDrmId</name>
+
+    <description>An Android Cordova plugin that gets a unique id for the device using MediaDrm.</description>
+    <license>MIT</license>
+
+    <keywords>cordova,android,imei,mediadrmid,uniqueid</keywords>
+    <repo>https://github.com/Lietsaki/MediaDrmIdCordovaPlugin.git</repo>
+    <issue>https://github.com/Lietsaki/MediaDrmIdCordovaPlugin/issues</issue>
+  
+    <engines>
+        <engine name="cordova" version=">=3.0.0"/>
+    </engines>
+  
+    <js-module src="www/mediadrmid.js" name="mediaDrmId">
+        <clobbers target="window.plugins.mediaDrmId" />
+    </js-module>
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="MediaDrmId">
+                <param name="android-package" value="com.ricardosandez.cordova.plugin.MediaDrmId"/>
+            </feature>
+        </config-file>
+
+        <source-file src="src/android/MediaDrmId.java" target-dir="src/com/ricardosandez/cordova/plugin" />
+    </platform>
+</plugin>
