@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-mediadrmid",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "An Android Cordova plugin that gets a unique, non-resettable id for the device using MediaDrm.",
   "cordova": {
     "id": "cordova-plugin-mediadrmid",
