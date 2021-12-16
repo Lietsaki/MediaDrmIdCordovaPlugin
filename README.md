@@ -44,7 +44,7 @@ function  onDeviceReady() {
 ```
 
 ```
-// Using it with async in Vue's onMounted hook
+// Using it with await in Vue's onMounted hook
 onMounted(async () => {
 	const  id  =  await window.plugins.MediaDrmId.get()
 	console.log('YOUR DEVICE UNIQUE ID:')
